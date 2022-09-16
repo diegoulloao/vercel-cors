@@ -1,0 +1,37 @@
+{
+  "name": "vercel-cors",
+  "version": "1.0.0",
+  "description": "Simple CORS module for vercel serverless functions",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --cache --fix",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "cors",
+    "vercel",
+    "simple",
+    "serverless",
+    "functions"
+  ],
+  "author": "diegoulloao",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "typescript": "^4.8.3",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint": "^8.23.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.5.14"
+  }
+}
