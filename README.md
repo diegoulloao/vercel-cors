@@ -37,7 +37,7 @@ async function handler (req, res) {
 export default withCors(handler)
 ```
 
-## Defaults options
+## Default options
 ```javascript
 export const defaults = {
   origin: '*',
