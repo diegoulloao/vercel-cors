@@ -55,7 +55,6 @@ import cors from "vercel-cors"
 
 export default cors({
   origin: /^https:\/\/vercelproject-[a-z0-9]+-organization.vercel.app$/,
-  headers: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept'],
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'UPDATE', 'DELETE'],
   credentials: true
 })
