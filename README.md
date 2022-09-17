@@ -17,7 +17,7 @@ import cors from "vercel-cors"
 export default cors({
   origin: '*' | string | RegExp | Array<string | RegExp>,
   headers: string[],
-  methods: 'GET' | 'HEAD' | 'POST' | 'PUT' | 'PATCH' | 'UPDATE' | 'DELETE' | 'OPTIONS',
+  methods: Array<'GET' | 'HEAD' | 'POST' | 'PUT' | 'PATCH' | 'UPDATE' | 'DELETE' | 'OPTIONS'>,
   expose: string[],
   maxAge: number | undefined,
   credentials: boolean
