@@ -1,6 +1,6 @@
 {
   "name": "vercel-cors",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0-rc2",
   "description": "Simple CORS module for vercel serverless functions",
   "main": "src/main.js",
   "scripts": {
